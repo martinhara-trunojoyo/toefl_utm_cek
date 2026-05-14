@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "https://esm.sh/@google/generative-ai";
 /**
  * CONFIGURATION & INITIALIZATION
  */
-const GEMINI_API_KEY = "AIzaSyBwMlI_shefQ1EsDjQZcIVxrmCRB6ew2Z8";
+const GEMINI_API_KEY = "";
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 const SYSTEM_CONTEXT = `Harraxbot adalah asisten AI ahli evaluasi TEAP (Test of English Academic Proficiency) Universitas Trunojoyo Madura yang dikembangin Sama Martin Harahap.
